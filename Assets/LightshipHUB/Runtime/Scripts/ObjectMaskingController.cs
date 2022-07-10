@@ -40,7 +40,7 @@ namespace Niantic.ARDK.Templates
         private ARVideoFeed _videoFeed;
 
         [SerializeField]
-        GameObject capturedImg, instructionsUIObject, menuButtonObject, balloonObject;
+        GameObject capturedImg, instructionsUIObject, menuButtonObject, balloonObject, frameObject;
 
         [SerializeField]
         ARRenderingManager aRRenderingManager;
@@ -108,7 +108,7 @@ namespace Niantic.ARDK.Templates
         {
             Debug.Log("Capturing Photo");
             capturedImg.GetComponent<Renderer>().material.mainTexture = aRRenderingManager.CPUTexture;
-            
+            frameObject.SetActive(true);
             StartCoroutine(hideMEnuButton());
         }
 
@@ -120,7 +120,7 @@ namespace Niantic.ARDK.Templates
             yield return new WaitForSeconds(10f);
             balloonObject.GetComponent<BalloonAnimation>().moveBalloon();
         }
-            
+        
         public void showHideUi()
         {
             menuButtonObject.SetActive(true);

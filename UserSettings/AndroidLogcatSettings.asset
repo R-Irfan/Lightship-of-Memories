@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "784c0a4c",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "784c0a4c",
+        "name": "com.RIRFAN.LightshipMemoriesURP",
+        "processId": 15063,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,36 @@
             "deviceId": "784c0a4c",
             "name": "com.RIRFAN.SpatialReminder",
             "processId": 7184,
+            "exited": false
+        },
+        {
+            "deviceId": "784c0a4c",
+            "name": "com.RIRFAN.LightshipMemoriesURP",
+            "processId": 31588,
+            "exited": false
+        },
+        {
+            "deviceId": "784c0a4c",
+            "name": "com.RIRFAN.LightshipMemoriesURP",
+            "processId": 15402,
+            "exited": false
+        },
+        {
+            "deviceId": "784c0a4c",
+            "name": "com.RIRFAN.LightshipMemoriesURP",
+            "processId": 11347,
+            "exited": false
+        },
+        {
+            "deviceId": "784c0a4c",
+            "name": "com.RIRFAN.LightshipMemoriesURP",
+            "processId": 15399,
+            "exited": false
+        },
+        {
+            "deviceId": "784c0a4c",
+            "name": "com.RIRFAN.LightshipMemoriesURP",
+            "processId": 15063,
             "exited": false
         }
     ],
